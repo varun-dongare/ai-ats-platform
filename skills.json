@@ -1,0 +1,34 @@
+{
+  "python": "Python", "java": "Java", "c++": "C++", "c#": "C#", "c": "C",
+  "javascript": "JavaScript", "typescript": "TypeScript", "ruby": "Ruby",
+  "php": "PHP", "go": "Go", "rust": "Rust", "swift": "Swift", "kotlin": "Kotlin",
+  "html": "HTML", "css": "CSS", "react": "React", "angular": "Angular", "vue": "Vue.js",
+  "node.js": "Node.js", "django": "Django", "flask": "Flask", "spring boot": "Spring Boot",
+  "sql": "SQL", "mysql": "MySQL", "postgresql": "PostgreSQL", "mongodb": "MongoDB",
+  "redis": "Redis", "oracle": "Oracle", "nosql": "NoSQL",
+  "docker": "Docker", "kubernetes": "Kubernetes", "aws": "AWS", "azure": "Azure",
+  "gcp": "GCP", "linux": "Linux", "bash": "Bash", "ci/cd": "CI/CD", "jenkins": "Jenkins",
+  "terraform": "Terraform", "git": "Git", "github": "GitHub", "gitlab": "GitLab",
+  "machine learning": "Machine Learning", "artificial intelligence": "AI", "ai": "AI",
+  "deep learning": "Deep Learning", "data science": "Data Science", "pandas": "Pandas",
+  "numpy": "NumPy", "tensorflow": "TensorFlow", "pytorch": "PyTorch", "nlp": "NLP",
+  
+  "autocad": "AutoCAD", "revit": "Revit", "solidworks": "SolidWorks", "matlab": "MATLAB",
+  "ansys": "ANSYS", "sap2000": "SAP2000", "civil 3d": "Civil 3D", "staad.pro": "STAAD.Pro",
+  "structural analysis": "Structural Analysis", "thermodynamics": "Thermodynamics",
+  "hvac": "HVAC", "fluid mechanics": "Fluid Mechanics", "robotics": "Robotics",
+  "plc": "PLC", "scada": "SCADA", "six sigma": "Six Sigma", "lean manufacturing": "Lean Manufacturing",
+  
+  "talent acquisition": "Talent Acquisition", "onboarding": "Onboarding", "payroll": "Payroll",
+  "employee relations": "Employee Relations", "workday": "Workday", "bamboo hr": "BambooHR",
+  "performance management": "Performance Management", "ats": "ATS", "compliance": "Compliance",
+  "benefits administration": "Benefits Administration", "successfactors": "SuccessFactors",
+  
+  "financial modeling": "Financial Modeling", "project management": "Project Management",
+  "p&l": "P&L", "agile": "Agile", "scrum": "Scrum", "jira": "Jira", "confluence": "Confluence",
+  "market research": "Market Research", "data analysis": "Data Analysis", "seo": "SEO",
+  "business strategy": "Business Strategy", "salesforce": "Salesforce", "crm": "CRM",
+  "b2b": "B2B Sales", "b2c": "B2C Sales", "digital marketing": "Digital Marketing",
+  "google analytics": "Google Analytics", "power bi": "Power BI", "tableau": "Tableau",
+  "excel": "Microsoft Excel", "financial analysis": "Financial Analysis", "accounting": "Accounting"
+}

@@ -1,0 +1,306 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f5f7;
+  color: #172b4d;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* --- Navbar Styles --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0052cc;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  background-color: #ebecf0;
+  color: #172b4d;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: #0052cc;
+  color: white;
+}
+
+/* --- Upload & Forms --- */
+.upload-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.upload-form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #b3bac5;
+  cursor: not-allowed;
+}
+
+/* --- Jobs Dashboard Styles --- */
+.dashboard-page h2 {
+  color: #0052cc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.job-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-card h3 {
+  margin: 0 0 5px 0;
+  color: #0052cc;
+}
+
+.job-card h3 span {
+  font-size: 14px;
+  color: #5e6c84;
+  font-weight: normal;
+}
+
+.job-card p {
+  margin: 0;
+  color: #5e6c84;
+}
+
+/* --- Kanban Board --- */
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.kanban-column-wrapper {
+  flex: 1;
+  min-width: 250px;
+  background-color: #ebecf0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-column-wrapper h2 {
+  font-size: 16px;
+  padding: 15px;
+  margin: 0;
+  color: #5e6c84;
+}
+
+.kanban-column {
+  padding: 0 15px 15px 15px;
+  flex-grow: 1;
+  min-height: 200px;
+}
+
+/* --- Candidate Cards --- */
+.candidate-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.candidate-card:active {
+  cursor: grabbing;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: none;
+  color: #ff5630;
+  border: none;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #ffebe6;
+  border-radius: 3px;
+  color: #ff5630;
+}
+
+.score-badge {
+  display: inline-block;
+  background-color: #e3fcef;
+  color: #006644;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* --- Modal (Pop-up) Styles --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(9, 30, 66, 0.54); /* Sleek dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  width: 500px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #5e6c84;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.modal-close:hover {
+  color: #ff5630;
+}
+
+.modal-content h2 {
+  margin: 0 0 15px 0;
+  color: #172b4d;
+  font-size: 24px;
+}
+
+.modal-stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.modal-badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.modal-badge.status {
+  background-color: #deebff;
+  color: #0747a6;
+}
+
+.modal-badge.score {
+  background-color: #e3fcef;
+  color: #006644;
+}
+
+.modal-skills-section h3 {
+  font-size: 14px;
+  color: #5e6c84;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background-color: #f4f5f7;
+  border: 1px solid #dfe1e6;
+  color: #172b4d;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.no-skills {
+  color: #8993a4;
+  font-style: italic;
+  font-size: 14px;
+}
